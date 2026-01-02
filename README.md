@@ -1,73 +1,57 @@
-# Welcome to your Lovable project
+Food Waste Management - Greater Noida
+Project Info
+URL: https://foodwastemanagementgreaternoida.lovable.app/
 
-## Project info
+How to Work with This Code
+I have developed this application with a modular structure, allowing for easy updates and maintenance. You can manage and edit the source code using the following methods:
 
-**URL**: https://lovable.dev/projects/03e2af41-ad12-4699-981b-2b6cd96486fb
+Using your preferred IDE
+To work locally on your machine, clone this repository and push your changes. The project requires Node.js & npm to be installed. Follow these steps to get started:
 
-## How can I edit this code?
+Bash
 
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/03e2af41-ad12-4699-981b-2b6cd96486fb) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+# Step 1: Clone the repository
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
+# Step 2: Navigate to the project directory
 cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
+# Step 3: Install the necessary dependencies
 npm i
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Step 4: Start the development server
 npm run dev
-```
+Editing via GitHub
+Navigate to the specific file you wish to modify.
 
-**Edit a file directly in GitHub**
+Click the Edit (pencil) icon to make direct changes.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Commit your changes to the main branch to update the project.
 
-**Use GitHub Codespaces**
+Using GitHub Codespaces
+Click on the Code button on the main repository page.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Select the Codespaces tab and launch a new environment.
 
-## What technologies are used for this project?
+This allows for a full cloud-based development setup where you can commit and push changes directly.
 
-This project is built with:
+Technologies Used
+This project was architected and built using a modern full-stack approach:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Vite: For a lightning-fast build tool and development server.
 
-## How can I deploy this project?
+TypeScript: To ensure type safety and scalable code.
 
-Simply open [Lovable](https://lovable.dev/projects/03e2af41-ad12-4699-981b-2b6cd96486fb) and click on Share -> Publish.
+React: For building a dynamic and responsive user interface.
 
-## Can I connect a custom domain to my Lovable project?
+shadcn-ui: For high-quality, accessible UI components.
 
-Yes, you can!
+Tailwind CSS: For utility-first styling and custom design.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Deployment
+The project is configured for continuous deployment. Once changes are pushed to the repository, the live site is updated automatically.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Custom Domain
+The application supports custom domain integration. To point this project to a specific URL, the DNS settings are managed under the project's domain configuration settings.
+
+Lovable is used to host this website.
